@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /*text styles*/
+  body {
+    font-family: "Schoolbell";
+    background-color:#f3e7db ;
+    font-size: 20px;
+  }
+  /* Header Style */
+  header {
+    background-color: #edc9a2;
+    border-radius: 50px;
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+    color:#5b3f2a;
+    margin: 25px;
+    
+  }
+
+  img{
+    border-radius: 50px;
+  }
+  /* Side box */
+  aside{
+    border-radius: 50px;
+    background: #edc9a2;
+    padding: 5px;
+    width: 40%;
+    float: left;
+
+  }
+  /* Section style */
+  section{
+    width: 60%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 12px;
+  }
+
+  .Ingredients {
+    border-radius: 50px;
+    background: #edc9a2;
+    padding: 20px;
+
+    
+  }
+
+  /* Ingredients table */
+  #Ingredients {
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+        
+  }
+  
+  #Ingredients td,  #Ingredients th {
+    border: 1px solid #5b3f2a;
+    padding: 10px;
+  }
+  
+  #Ingredients tr:nth-child(even){background-color: #ecd7c0;}
+ 
+  #Ingredients th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;   
+  }
+
+/* break line customized */
+
+hr {
+    border: 2px solid #5b3f2a;
+    border-radius: 2px;
+}
+
+/* list setting */
+
+li{
+    margin: 10px;
+}
+  /* Responsive layout */
+  @media (max-width: 600px) {
+    aside,section,article {width: 100%;}
+  }
+  
